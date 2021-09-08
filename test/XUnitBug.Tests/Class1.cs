@@ -5,7 +5,7 @@ namespace XUnitBug.Tests
 {
     public partial class AllClasses
     {
-        [CollectionDefinition(nameof(RunTestsSeparately))]
+        [Collection(nameof(RunTestsSeparately))]
         public class Class1
         {
             [Fact]
